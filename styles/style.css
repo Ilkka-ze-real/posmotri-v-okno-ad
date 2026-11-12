@@ -49,3 +49,18 @@ ol {
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background-color: #D9D9D9;
 }
+
+.content {
+  display: grid;
+  grid-template-areas: "result details";
+  align-items: end;
+  grid-template-columns: 711px 399px;
+  gap: 30px;
+}
+
+.result {
+  grid-area: result;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
