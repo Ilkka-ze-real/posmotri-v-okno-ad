@@ -64,3 +64,27 @@ ol {
   flex-direction: column;
   gap: 16px;
 }
+
+.content__details {
+  display: flex;
+  flex-direction: column;
+  inline-size: 100%;
+  block-size: 100%;
+  gap: 26px;
+  grid-area: details;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.content__list-container {
+  position: relative;
+  block-size: 298px;
+  overflow: auto;
+  padding: 2px;
+  gap: 30px;
+}
